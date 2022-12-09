@@ -292,7 +292,7 @@ def processing(df):
 
 
 # ===================================== # naviguation du client
-image = Image.open('image0.jpg')
+image = Image.open('./img/image0.jpg')
 st.sidebar.image(image, caption=None)
 st.sidebar.header("Navigation")
 option_data = st.sidebar.selectbox( "Selectionner l'annee de votre choix ", ['Valeurs Foncières 2016','Valeurs Foncières 2017','Valeurs Foncières 2018', 'Valeurs Foncières 2019', 'Valeurs Foncières 2020'])
